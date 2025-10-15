@@ -1,7 +1,7 @@
 import { CartItem } from '@/types/menu';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
-import { Minus, Plus, Trash2, X } from 'lucide-react';
+import { Minus, Plus, Trash2 } from 'lucide-react';
 import { useState } from 'react';
 import { CheckoutForm } from './CheckoutForm';
 
@@ -69,7 +69,7 @@ export const Cart = ({
                   className="flex gap-4 p-4 rounded-lg border border-border card-shadow"
                 >
                   <img
-                    src={`/src/assets/${item.image}`}
+                    src={`/${item.image}`}
                     alt={item.name}
                     className="w-20 h-20 object-cover rounded-lg"
                   />
@@ -136,3 +136,4 @@ export const Cart = ({
     </Sheet>
   );
 };
+

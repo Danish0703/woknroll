@@ -36,7 +36,7 @@ export const FeaturedDishes = ({ dishes, onAddToCart }: FeaturedDishesProps) => 
             >
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src={`/src/assets/${dish.image}`}
+                  src={`/${dish.image}`}
                   alt={dish.name}
                   className="w-full h-full object-cover transition-smooth hover:scale-110"
                 />

@@ -9,7 +9,7 @@
           "name": "Crispy Veg Spring Rolls",
           "description": "Golden-fried rolls filled with fresh vegetables, served with sweet chili sauce.",
           "price": 180,
-          "image": "spring-rolls.jpg",
+          "image": "assets/spring-rolls.jpg",
           "spiceLevel": 0,
           "featured": true
         },
@@ -18,7 +18,7 @@
           "name": "Steamed Veg Momos",
           "description": "Handmade momos with a savory vegetable filling, served with a spicy dipping sauce.",
           "price": 200,
-          "image": "dumplings.jpg",
+          "image": "assets/dumplings.jpg",
           "spiceLevel": 0,
           "featured": false
         },
@@ -27,7 +27,7 @@
           "name": "Hot & Sour Veg Soup",
           "description": "Classic spicy and tangy soup with tofu, mushrooms, and bamboo shoots.",
           "price": 150,
-          "image": "hot-sour-soup.jpg",
+          "image": "assets/hot-sour-soup.jpg",
           "spiceLevel": 2,
           "featured": false
         }
@@ -42,7 +42,7 @@
           "name": "Classic Veg Hakka Noodles",
           "description": "Soft egg noodles wok-tossed with fresh vegetables.",
           "price": 240,
-          "image": "lo-mein.jpg",
+          "image": "assets/lo-mein.jpg",
           "spiceLevel": 0,
           "featured": true
         },
@@ -51,7 +51,7 @@
           "name": "Shrimp Fried Rice",
           "description": "Classic fried rice with shrimp, egg, peas, and carrots.",
           "price": 280,
-          "image": "fried-rice.jpg",
+          "image": "assets/fried-rice.jpg",
           "spiceLevel": 0,
           "featured": false
         }
@@ -66,7 +66,7 @@
           "name": "Spicy Kung Pao Chicken",
           "description": "A fiery stir-fry with chicken, peanuts, vegetables, and chili peppers.",
           "price": 350,
-          "image": "kung-pao-chicken.jpg",
+          "image": "assets/kung-pao-chicken.jpg",
           "spiceLevel": 3,
           "featured": true
         },
@@ -75,7 +75,7 @@
           "name": "Tangy Orange Chicken",
           "description": "Crispy chicken tossed in a sweet and tangy orange glaze.",
           "price": 320,
-          "image": "orange-chicken.jpg",
+          "image": "assets/orange-chicken.jpg",
           "spiceLevel": 0,
           "featured": true
         },
@@ -84,7 +84,7 @@
           "name": "Sichuan Chilli Beef",
           "description": "Tender beef with green beans in a fiery Sichuan peppercorn sauce.",
           "price": 380,
-          "image": "sichuan-beef.jpg",
+          "image": "assets/sichuan-beef.jpg",
           "spiceLevel": 3,
           "featured": false
         },
@@ -93,7 +93,7 @@
           "name": "Sweet & Sour Chicken",
           "description": "Crispy chicken with pineapple and bell peppers in a classic sweet and sour sauce.",
           "price": 340,
-          "image": "sweet-sour-pork.jpg",
+          "image": "assets/sweet-sour-pork.jpg",
           "spiceLevel": 0,
           "featured": false
         }

@@ -63,7 +63,7 @@ export const MenuSection = ({ categories, onAddToCart }: MenuSectionProps) => {
             >
               <div className="relative h-64 overflow-hidden">
                 <img
-                  src={`/src/assets/${item.image}`}
+                  src={`/${item.image}`}
                   alt={item.name}
                   className="w-full h-full object-cover transition-smooth hover:scale-110"
                 />

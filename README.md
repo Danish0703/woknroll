@@ -1,73 +1,77 @@
-# Welcome to your Lovable project
+# Wok & Roll 🍜
 
-## Project info
+**Fresh. Fast. Flavorful.**
 
-**URL**: https://lovable.dev/projects/721b96e1-1b84-4c12-9520-802fe34dc6cc
+Wok & Roll is a modern, responsive web application for a fictional Chinese restaurant. It provides a seamless online ordering experience, from browsing the menu to checking out. Built with a modern tech stack, it's designed to be fast, user-friendly, and visually appealing.
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+  * **Interactive Menu:** Browse dishes by category, with beautiful images and descriptions.
+  * **Featured Dishes:** Highlights the chef's specials to attract customers.
+  * **Dynamic Cart System:** Add, remove, and update item quantities with real-time total calculation.
+  * **Smooth Checkout Process:** A simple and intuitive form for placing orders.
+  * **Responsive Design:** A great user experience on all devices, from desktops to mobile phones.
+  * **Modern UI:** Built with the sleek and customizable **shadcn/ui** component library.
 
-**Use Lovable**
+## 🛠️ Built With
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/721b96e1-1b84-4c12-9520-802fe34dc6cc) and start prompting.
+This project is built with a modern and powerful tech stack:
 
-Changes made via Lovable will be committed automatically to this repo.
+  * **[Vite](https://vitejs.dev/)** - Next-generation front-end tooling.
+  * **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces.
+  * **[TypeScript](https://www.typescriptlang.org/)** - A typed superset of JavaScript that compiles to plain JavaScript.
+  * **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapid UI development.
+  * **[shadcn/ui](https://ui.shadcn.com/)** - A collection of re-usable components built with Radix UI and Tailwind CSS.
+  * **[Supabase](https://supabase.com/)** - The open-source Firebase alternative for backend services.
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+To get a local copy up and running, follow these simple steps.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+Make sure you have Node.js and a package manager (npm, yarn, or bun) installed on your machine.
+
+  * **Node.js** (v18 or later recommended)
+  * **npm** (comes with Node.js)
+
+### Installation
+
+1.  **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/danish0703/woknroll.git
+    cd woknroll
+    ```
+
+2.  **Install dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+3.  **Set up environment variables:**
+    Create a `.env` file in the root of the project and add your Supabase credentials. You can use the provided `.env.example` as a template:
+
+    ```env
+    VITE_SUPABASE_PROJECT_ID="your_supabase_project_id"
+    VITE_SUPABASE_PUBLISHABLE_KEY="your_supabase_publishable_key"
+    VITE_SUPABASE_URL="your_supabase_url"
+    ```
+
+### Running the Development Server
+
+Once the installation is complete, you can start the development server:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+PROJECT IS LIVE ON: https://woknroll-6sos.vercel.app/
+## 🙏 Acknowledgements
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/721b96e1-1b84-4c12-9520-802fe34dc6cc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+  * **[shadcn/ui](https://ui.shadcn.com/)** for the fantastic component library.
+  * **[Lucide React](https://lucide.dev/)** for the beautiful and consistent icons.
+  * **[Vite](https://vitejs.dev/)** for the incredible development experience.
